@@ -31,5 +31,5 @@ $insertPosition = 2;
 $newArray = insertElement($myArray, $newElement, $insertPosition);
 
 // In mảng mới đã được chèn phần tử
-echo "new array: " . implode(', ', $newArray);
+echo "mảng mới: " . implode(', ', $newArray);
 ?>
