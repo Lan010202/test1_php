@@ -10,7 +10,7 @@ function kiemTraChuoi($chuoi, $tuCanTim) {
         echo "Chuỗi '$chuoi' không chứa từ '$tuCanTim'.";
     }
 }
-$chuoi = "bé lên ba";
-$tuCanTim = "ba";
+$chuoi = "Nguyen Thi Lan";
+$tuCanTim = "Lan";
 kiemTraChuoi($chuoi, $tuCanTim);
 ?>
