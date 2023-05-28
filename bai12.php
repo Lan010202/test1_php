@@ -22,14 +22,14 @@ function insertElement($element, $position) {
 $myArray = [1, 2, 3, 4, 5];
 
 // Phần tử cần chèn
-$newElement = 10;
+$newElement = 7;
 
 // Vị trí chèn
-$insertPosition = 2;
+$insertPosition = 5;
 
 // Chèn phần tử vào mảng ở vị trí bất kỳ
 $newArray = insertElement($myArray, $newElement, $insertPosition);
 
 // In mảng mới đã được chèn phần tử
-echo "mảng mới: " . implode(', ', $newArray);
+echo "Mảng mới: " . implode(', ', $newArray);
 ?>
